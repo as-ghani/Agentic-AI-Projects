@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment Variables 
+.env 
+.env.*
+
+# OS-specific
+.DS_Store
+
+# Vector store (regenerate with `uv run implementation/ingest.py`)
+vector_db/
+products_vectorstore/
+Thumbs.db
+
+memory.json
+email.txt
+
