@@ -9,16 +9,15 @@ The current build target is a trading simulation account manager. The crew produ
 ## The Four Agents
 
 1. Engineering Lead
-   Reads the requirements and produces a written design: the modules, classes, and function signatures the other three agents should build. Does not write implementation code. Also has access to Context7 through MCP, which it uses to check current Gradio 6 APIs so its guidance to the Frontend Engineer stays accurate.
-
+  Reads the requirements and produces a written design: the modules, classes, and function signatures the other three agents should build. Does not write implementation code. Also has access to Context7 through MCP, which it uses to check current Gradio 6 APIs so its guidance to the Frontend Engineer stays accurate.
 2. Backend Engineer
-   Implements the Python backend described in the design. Restricted to the Python standard library only, so the resulting module has no external dependencies.
-
+  Implements the Python backend described in the design. Restricted to the Python standard library only, so the resulting module has no external dependencies.
 3. Frontend Engineer
-   Builds a Gradio interface (app.py) that demonstrates the backend. Also writes a small validation script that imports the app and confirms it constructs correctly, without actually launching a server.
-
+  Builds a Gradio interface (app.py) that demonstrates the backend. Also writes a small validation script that imports the app and confirms it constructs correctly, without actually launching a server.
 4. Test Engineer
-   Writes a unit test suite for the backend module using the standard library unittest framework, runs it, and fixes backend defects until every test passes.
+  Writes a unit test suite for the backend module using the standard library unittest framework, runs it, and fixes backend defects until every test passes.
+
+
 
 ## How the Crew Runs
 
@@ -57,6 +56,8 @@ engineering_team_using_crewai/
     test_summary.md          a summary of the final test run
 ```
 
+
+
 ## The Sandbox and Its Tools
 
 Every agent that writes or runs code shares the same set of tools, defined once in sandbox_tools.py.
@@ -83,6 +84,8 @@ Requirements. Python 3.13, uv, and Docker, since generated code is executed insi
 2. Provide an OPENAI_API_KEY, and an ANTHROPIC_API_KEY if you plan to experiment with Anthropic models for any agent.
 3. Confirm Docker is running, since Run Sandbox Python File depends on it.
 
+
+
 ## Running the Crew
 
 From the project root, run the crew with the CrewAI CLI.
@@ -101,12 +104,12 @@ The screenshots below are from a completed run of the trading simulation example
 
 ### Account Manager Interface
 
-![Trading Simulation Account Manager interface showing account creation, deposit, and buy and sell controls, with a status panel confirming a successful buy](screenshots/screenshot_1_account_manager.png)
+![Trading Simulation Account Manager interface showing account creation, deposit, and buy and sell controls, with a status panel confirming a successful buy](screenshots/account_manager.png)
 
 ### Portfolio Summary
 
-![Portfolio summary table showing account id, owner, cash balance, holdings value, total portfolio value, and profit and loss figures, alongside a holdings table showing one share of TSLA](screenshots/screenshot_2_portfolio_summary.png)
+![Portfolio summary table showing account id, owner, cash balance, holdings value, total portfolio value, and profit and loss figures, alongside a holdings table showing one share of TSLA](screenshots/portfolio_summary.png)
 
 ### Transaction History
 
-![Transaction history table showing a one hundred thousand dollar deposit followed by a one share TSLA purchase, with the resulting cash balance after each transaction](screenshots/screenshot_3_transaction_history.png)
+![Transaction history table showing a one hundred thousand dollar deposit followed by a one share TSLA purchase, with the resulting cash balance after each transaction](screenshots/transaction_history.png)
