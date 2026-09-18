@@ -1,0 +1,249 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]
+            - button "Accessibility feedback" [ref=e19]
+          - navigation [ref=e23]:
+            - link "Explore" [ref=e26]
+            - link "Flights" [ref=e34]
+            - link "Hotels" [ref=e42]
+            - link "Vacation rentals" [ref=e53]
+        - generic [ref=e70]:
+          - button "Change appearance" [ref=e72]
+          - tooltip [aria-hidden] [ref=e75]: Change appearance
+      - generic [ref=e77]:
+        - button "Google apps" [ref=e81] [cursor=pointer]
+        - link "Sign in" [ref=e85] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights&followup=https://www.google.com/travel/flights&ec=GAZAlQM
+  - generic [ref=e93]:
+    - heading "Flights" [level=1] [ref=e96]
+    - generic [ref=e97]:
+      - search "Flight" [ref=e99]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - combobox "Change ticket type. Round trip" [ref=e107] [cursor=pointer]:
+              - generic [aria-hidden]:
+                - generic: Round trip
+            - button "1 passenger, change number of passengers." [ref=e113]:
+              - generic [ref=e116]: "1"
+            - combobox "Change seating class. Economy" [ref=e126] [cursor=pointer]:
+              - generic [aria-hidden]:
+                - generic: Economy
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - generic [ref=e135]:
+                - combobox "Where from?" [ref=e136]: Sialkot
+                - generic [aria-hidden] [ref=e138]: Sialkot
+              - generic [ref=e142]:
+                - button "Swap origin and destination." [disabled]
+              - combobox "Where to?" [active] [ref=e149]
+            - generic [ref=e161]:
+              - textbox "Departure" [ref=e168]
+              - textbox "Return" [ref=e172]
+        - button "Explore destinations" [ref=e176]:
+          - generic [ref=e181]: Explore
+      - main [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e185]:
+            - generic [ref=e188]:
+              - heading "Flexible? Discover the best flight deals with AI" [level=2] [ref=e190]
+              - generic [ref=e191]: Describe your ideal trip, and let Google Flights find the best deals for you
+            - button "Explore deals with AI" [ref=e193]
+          - heading "Find and book cheap flights worldwide and track prices" [level=1] [ref=e197]
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - heading "Find cheap flights from Pakistan to anywhere" [level=2] [ref=e200]
+              - button "Learn more about this section" [ref=e203] [cursor=pointer]
+            - generic [ref=e207]:
+              - tablist [ref=e211]:
+                - tab "Sialkot" [selected] [ref=e212] [cursor=pointer]
+                - tab "Karachi" [ref=e213] [cursor=pointer]
+                - tab "Islamabad" [ref=e214] [cursor=pointer]
+                - tab "Lahore" [ref=e215] [cursor=pointer]
+              - list [ref=e216]:
+                - listitem [ref=e217]:
+                  - button "Find flights from Sialkot (SKT) to Jeddah (JED) from PKR 124,308. Operated by flydubai. Oct 8 to Oct 14. 1 stop" [ref=e218] [cursor=pointer]:
+                    - generic [ref=e219]:
+                      - generic [ref=e220]: Sialkot
+                      - generic [ref=e223]: Jeddah
+                    - generic [ref=e224]:
+                      - generic [ref=e225]: Oct 8 — Oct 14
+                      - generic [ref=e226]:
+                        - generic [aria-hidden] [ref=e227]: ·
+                        - text: 1 stop
+                    - generic [ref=e228]: from PKR 124,308
+                - listitem [ref=e233]:
+                  - button "Find flights from Sialkot (SKT) to Riyadh (RUH) from PKR 117,865. Operated by SalamAir. Sep 19 to Sep 25. 1 stop" [ref=e234] [cursor=pointer]:
+                    - generic [ref=e235]:
+                      - generic [ref=e236]: Sialkot
+                      - generic [ref=e239]: Riyadh
+                    - generic [ref=e240]:
+                      - generic [ref=e241]: Sep 19 — Sep 25
+                      - generic [ref=e242]:
+                        - generic [aria-hidden] [ref=e243]: ·
+                        - text: 1 stop
+                    - generic [ref=e244]: from PKR 117,865
+                - listitem [ref=e249]:
+                  - button "Find flights from Sialkot to Karachi. Sep 19 to Sep 25" [ref=e250] [cursor=pointer]:
+                    - generic [ref=e251]:
+                      - generic [ref=e252]: Sialkot
+                      - generic [ref=e255]: Karachi
+                    - generic [ref=e256]: Sep 19 — Sep 25
+                    - generic [ref=e258]: Find flights
+                - text: · · · · · · · ·
+              - generic [ref=e263]:
+                - button "Explore more destinations from Sialkot" [ref=e264] [cursor=pointer]
+                - button [aria-hidden] [ref=e265]:
+                  - generic [ref=e268]: Explore destinations
+          - generic [ref=e269]:
+            - heading "Useful tools to help you find the best airline tickets" [level=2] [ref=e270]
+            - generic [ref=e271]:
+              - tablist [ref=e272]:
+                - tab "Find the cheapest days to fly The Date grid and Price graph make it easy to find the best flight deals" [selected] [ref=e273] [cursor=pointer]:
+                  - generic [ref=e277]:
+                    - generic [ref=e278]: Find the cheapest days to fly
+                    - generic [ref=e279]: The Date grid and Price graph make it easy to find the best flight deals
+                - tab "Know when to book with price insights Price history and trend data show you the best time to book your airline ticket to get the cheapest price for your flight" [ref=e280] [cursor=pointer]:
+                  - generic [ref=e284]:
+                    - generic [ref=e285]: Know when to book with price insights
+                    - generic [ref=e286]: Price history and trend data show you the best time to book your airline ticket to get the cheapest price for your flight
+                - tab "Track flight prices for a trip Not ready to book yet? Observe price changes for a route or flight and get notified when prices drop." [ref=e287] [cursor=pointer]:
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: Track flight prices for a trip
+                    - generic [ref=e294]: Not ready to book yet? Observe price changes for a route or flight and get notified when prices drop.
+                - tab "Explore the best flight deals with AI Describe your ideal trip and let Google Flights find you the best deals" [ref=e295] [cursor=pointer]:
+                  - generic [ref=e299]:
+                    - generic [ref=e300]: Explore the best flight deals with AI
+                    - generic [ref=e301]: Describe your ideal trip and let Google Flights find you the best deals
+              - tabpanel "Find the cheapest days to fly The Date grid and Price graph make it easy to find the best flight deals" [ref=e302]:
+                - generic [ref=e303]: Insightful tools help you choose your trip dates
+                - generic [ref=e304]: If your travel plans are flexible, use the form above to start searching for a specific trip. Then, play around with the Date grid and Price graph options on the Search page to find the cheapest days to fly and book your tickets.
+          - generic [ref=e306]:
+            - heading "Popular flight destinations from Pakistan" [level=2] [ref=e307]
+            - generic [ref=e310]:
+              - link "City image for London London" [ref=e312] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-london.html
+                - img "City image for London" [ref=e314]
+                - generic [ref=e315]: London
+              - link "City image for Jeddah Jeddah" [ref=e317] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-jeddah.html
+                - img "City image for Jeddah" [ref=e319]
+                - generic [ref=e320]: Jeddah
+              - link "City image for Riyadh Riyadh" [ref=e322] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-riyadh.html
+                - img "City image for Riyadh" [ref=e324]
+                - generic [ref=e325]: Riyadh
+              - link "City image for Istanbul Istanbul" [ref=e327] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-istanbul.html
+                - img "City image for Istanbul" [ref=e329]
+                - generic [ref=e330]: Istanbul
+              - link "City image for Dammam Dammam" [ref=e332] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-dammam.html
+                - img "City image for Dammam" [ref=e334]
+                - generic [ref=e335]: Dammam
+              - link "City image for Dubai Dubai" [ref=e337] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-dubai.html
+                - img "City image for Dubai" [ref=e339]
+                - generic [ref=e340]: Dubai
+              - link "City image for Karachi Karachi" [ref=e342] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-karachi.html
+                - img "City image for Karachi" [ref=e344]
+                - generic [ref=e345]: Karachi
+              - link "City image for Cairo Cairo" [ref=e347] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-cairo.html
+                - img "City image for Cairo" [ref=e349]
+                - generic [ref=e350]: Cairo
+              - link "City image for Islamabad Islamabad" [ref=e352] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-islamabad.html
+                - img "City image for Islamabad" [ref=e354]
+                - generic [ref=e355]: Islamabad
+              - link "City image for Moscow Moscow" [ref=e357] [cursor=pointer]:
+                - /url: https://www.google.com/travel/flights/flights-to-moscow.html
+                - img "City image for Moscow" [ref=e359]
+                - generic [ref=e360]: Moscow
+          - generic [ref=e361]:
+            - heading "Frequently asked questions" [level=2] [ref=e363]
+            - group "Frequently asked questions" [ref=e364]:
+              - generic [ref=e366] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e367]: What are some good flight destinations from Pakistan?
+                - button "What are some good flight destinations from Pakistan?" [ref=e370]
+              - generic [ref=e376] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e377]: How can I find last-minute flight deals?
+                - button "How can I find last-minute flight deals?" [ref=e380]
+              - generic [ref=e386] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e387]: How can I find cheap flights for a weekend getaway?
+                - button "How can I find cheap flights for a weekend getaway?" [ref=e390]
+              - generic [ref=e396] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e397]: How can I find flight deals if my travel plans are flexible?
+                - button "How can I find flight deals if my travel plans are flexible?" [ref=e400]
+              - generic [ref=e406] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e407]: How can I find cheap flights to anywhere?
+                - button "How can I find cheap flights to anywhere?" [ref=e410]
+              - generic [ref=e416] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e417]: How can I get flight alerts for my trip?
+                - button "How can I get flight alerts for my trip?" [ref=e420]
+          - heading "Search more flights" [level=2] [ref=e425]
+          - generic [ref=e426]:
+            - heading "Find cheap flights on popular routes" [level=3] [ref=e427]
+            - generic [ref=e429]:
+              - tablist [ref=e430]:
+                - generic [ref=e433]:
+                  - tab "Flights from cities in Pakistan" [selected] [ref=e435] [cursor=pointer]
+                  - tab "International flights from Pakistan" [ref=e438] [cursor=pointer]
+                  - tab "Domestic flights in Pakistan" [ref=e441] [cursor=pointer]
+              - tabpanel "Flights from cities in Pakistan" [ref=e444]:
+                - generic [ref=e446]:
+                  - link "Flights from Karachi" [ref=e447] [cursor=pointer]:
+                    - /url: https://www.google.com/travel/flights/flights-from-karachi.html
+                  - link "Flights from Lahore" [ref=e448] [cursor=pointer]:
+                    - /url: https://www.google.com/travel/flights/flights-from-lahore.html
+                  - link "Flights from Islamabad" [ref=e449] [cursor=pointer]:
+                    - /url: https://www.google.com/travel/flights/flights-from-islamabad.html
+                  - link "Flights from Peshawar" [ref=e450] [cursor=pointer]:
+                    - /url: https://www.google.com/travel/flights/flights-from-peshawar.html
+                  - link "Flights from Multan" [ref=e451] [cursor=pointer]:
+                    - /url: https://www.google.com/travel/flights/flights-from-multan.html
+                  - link "Flights from Sialkot" [ref=e452] [cursor=pointer]:
+                    - /url: https://www.google.com/travel/flights/flights-from-sialkot.html
+      - contentinfo [ref=e455]:
+        - generic [ref=e457]:
+          - button "Language·English (United States)" [ref=e458]
+          - button "Location·Pakistan" [ref=e464]
+          - button "Currency PKR" [ref=e471]:
+            - generic [aria-hidden] [ref=e484]: Currency·PKR
+        - generic [ref=e485]:
+          - paragraph [ref=e486]: "Current language and currency options applied: English (United States) - Pakistan - PKR"
+          - paragraph [ref=e487]:
+            - text: Displayed currencies may differ from the currencies used to purchase flights.
+            - link "Learn more about currencies" [ref=e488] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PK
+              - text: Learn more
+          - paragraph [ref=e489]: Prices are final prices and include all taxes and fees, including payment fees for the cheapest common payment method (which may differ depending on the provider). Additional charges may apply for other types of payment, luggage, meals, WLAN or other additional services. Prices, availability and travel details are provided based on the latest information received from our partners. This information is reflected in the results within a period of less than 24 hours. Additional conditions may also be applied by our partners. You should then check prices and conditions with the services providers before booking.
+        - generic [ref=e490]:
+          - link "About Google Travel" [ref=e491] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e492] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e493] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e494] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e495] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e496] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - generic [ref=e498]:
+          - generic [ref=e502]:
+            - generic [aria-hidden] [ref=e503] [cursor=pointer]: International sites
+            - button "International sites" [ref=e506]
+          - generic [ref=e514]:
+            - generic [aria-hidden] [ref=e515] [cursor=pointer]: Explore flights
+            - button "Explore flights" [ref=e518]

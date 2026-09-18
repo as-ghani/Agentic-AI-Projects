@@ -1,0 +1,108 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]
+            - button "Accessibility feedback" [ref=e19]
+          - navigation [ref=e23]:
+            - link "Explore" [ref=e26]
+            - link "Flights" [ref=e34]
+            - link "Hotels" [ref=e42]
+            - link "Vacation rentals" [ref=e53]
+        - generic [ref=e70]:
+          - button "Change appearance" [ref=e72]
+          - tooltip [aria-hidden] [ref=e75]: Change appearance
+      - generic [ref=e77]:
+        - button "Google apps" [ref=e81] [cursor=pointer]
+        - link "Sign in" [ref=e85] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights?q%3Dflights%2Bfrom%2BNew%2BYork%2Bto%2BLondon%2Bleaving%2B18%2BOctober%2B2026%2Breturning%2B25%2BOctober%2B2026&followup=https://www.google.com/travel/flights?q%3Dflights%2Bfrom%2BNew%2BYork%2Bto%2BLondon%2Bleaving%2B18%2BOctober%2B2026%2Breturning%2B25%2BOctober%2B2026&ec=GAZAlQM
+  - generic [ref=e93]:
+    - generic [ref=e95]:
+      - generic [ref=e96]: Loading results
+      - progressbar [aria-hidden] [ref=e97]
+    - generic [ref=e104]:
+      - search [ref=e105]:
+        - heading "Flight search" [level=1] [ref=e106]
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - combobox "Change ticket type. Round trip" [ref=e113] [cursor=pointer]:
+              - generic [aria-hidden]:
+                - generic: Round trip
+            - button "1 passenger, change number of passengers." [ref=e119]:
+              - generic [ref=e122]: "1"
+            - combobox "Change seating class. Economy" [ref=e132] [cursor=pointer]:
+              - generic [aria-hidden]:
+                - generic: Economy
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e141]:
+                - combobox "Where from?" [ref=e142]: New York
+                - generic [aria-hidden] [ref=e144]: New York
+              - button "Swap origin and destination." [ref=e149] [cursor=pointer]
+              - generic [ref=e157]:
+                - combobox "Where to?" [ref=e158]: London
+                - generic [aria-hidden] [ref=e160]: London
+            - generic [ref=e172]:
+              - generic [ref=e174]:
+                - textbox "Departure" [ref=e179]: Sun, Oct 18
+                - button [aria-hidden] [ref=e182]
+                - button [aria-hidden] [ref=e189]
+              - generic [ref=e196]:
+                - textbox "Return" [ref=e197]: Sun, Oct 25
+                - button [aria-hidden] [ref=e200]
+                - button [aria-hidden] [ref=e207]
+          - heading "Filters" [level=2] [ref=e213]
+          - generic [ref=e216]:
+            - button "All filters" [ref=e219]
+            - generic [ref=e227]:
+              - button "Stops, Not selected" [ref=e230]:
+                - generic [ref=e233]: Stops
+              - button "Airlines, Not selected" [ref=e240]:
+                - generic [ref=e243]: Airlines
+              - button "Bags, Not selected" [ref=e250]:
+                - generic [ref=e253]: Bags
+              - button "Price, Not selected" [ref=e260]:
+                - generic [ref=e263]: Price
+              - button "Times, Not selected" [ref=e270]:
+                - generic [ref=e273]: Times
+              - button "Emissions, Not selected" [ref=e280]:
+                - generic [ref=e283]: Emissions
+              - button "Connecting airports, Not selected" [ref=e290]:
+                - generic [ref=e293]: Connecting airports
+              - button "Duration, Not selected" [ref=e300]:
+                - generic [ref=e303]: Duration
+      - main:
+        - heading "Search results" [level=2] [ref=e308]
+      - contentinfo [ref=e312]:
+        - generic [ref=e314]:
+          - button "Language·English (United States)" [ref=e315]
+          - button "Location·Pakistan" [ref=e321]
+          - button "Currency PKR" [ref=e328]:
+            - generic [aria-hidden] [ref=e341]: Currency·PKR
+        - generic [ref=e342]:
+          - link "About Google Travel" [ref=e343] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e344] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e345] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e346] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e347] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e348] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - generic [ref=e349]:
+          - paragraph [ref=e350]:
+            - text: Displayed currencies may differ from the currencies used to purchase flights.
+            - link "Learn more about currencies" [ref=e351] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PK
+              - text: Learn more
+          - paragraph [ref=e352]: Prices are final prices and include all taxes and fees, including payment fees for the cheapest common payment method (which may differ depending on the provider). Additional charges may apply for other types of payment, luggage, meals, WLAN or other additional services. Prices, availability and travel details are provided based on the latest information received from our partners. This information is reflected in the results within a period of less than 24 hours. Additional conditions may also be applied by our partners. You should then check prices and conditions with the services providers before booking.

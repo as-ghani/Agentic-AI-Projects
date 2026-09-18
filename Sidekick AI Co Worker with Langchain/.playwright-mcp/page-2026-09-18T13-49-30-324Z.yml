@@ -1,0 +1,1251 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]
+            - button "Accessibility feedback" [ref=e19]
+          - navigation [ref=e23]:
+            - link "Explore" [ref=e26]
+            - link "Flights" [ref=e34]
+            - link "Hotels" [ref=e42]
+            - link "Vacation rentals" [ref=e53]
+        - generic [ref=e70]:
+          - button "Change appearance" [ref=e72]
+          - tooltip [aria-hidden] [ref=e75]: Change appearance
+      - generic [ref=e77]:
+        - button "Google apps" [ref=e81] [cursor=pointer]
+        - link "Sign in" [ref=e85] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights?q%3Dflights%2Bfrom%2BNew%2BYork%2Bto%2BLondon%2Bleaving%2B18%2BOctober%2B2026%2Breturning%2B25%2BOctober%2B2026&followup=https://www.google.com/travel/flights?q%3Dflights%2Bfrom%2BNew%2BYork%2Bto%2BLondon%2Bleaving%2B18%2BOctober%2B2026%2Breturning%2B25%2BOctober%2B2026&ec=GAZAlQM
+  - generic [ref=e93]:
+    - generic [aria-hidden] [ref=e95]:
+      - generic [ref=e96]: Loading results
+      - progressbar [aria-hidden] [ref=e97]
+    - generic [ref=e104]:
+      - search [ref=e105]:
+        - heading "Flight search" [level=1] [ref=e106]
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - combobox "Change ticket type. Round trip" [ref=e113] [cursor=pointer]:
+              - generic [aria-hidden]:
+                - generic: Round trip
+            - button "1 passenger, change number of passengers." [ref=e119]:
+              - generic [ref=e122]: "1"
+            - combobox "Change seating class. Economy" [ref=e132] [cursor=pointer]:
+              - generic [aria-hidden]:
+                - generic: Economy
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e141]:
+                - combobox "Where from?" [ref=e142]: New York
+                - generic [aria-hidden] [ref=e144]: New York
+              - button "Swap origin and destination." [ref=e149] [cursor=pointer]
+              - generic [ref=e157]:
+                - combobox "Where to?" [ref=e158]: London
+                - generic [aria-hidden] [ref=e160]: London
+            - generic [ref=e172]:
+              - generic [ref=e174]:
+                - textbox "Departure" [ref=e179]: Sun, Oct 18
+                - button [aria-hidden] [ref=e182]
+                - button [aria-hidden] [ref=e189]
+              - generic [ref=e196]:
+                - textbox "Return" [ref=e197]: Sun, Oct 25
+                - button [aria-hidden] [ref=e200]
+                - button [aria-hidden] [ref=e207]
+          - heading "Filters" [level=2] [ref=e213]
+          - generic [ref=e216]:
+            - button "All filters" [ref=e219]
+            - generic [ref=e227]:
+              - button "Stops, Not selected" [ref=e230]:
+                - generic [ref=e233]: Stops
+              - button "Airlines, Not selected" [ref=e240]:
+                - generic [ref=e243]: Airlines
+              - button "Bags, Not selected" [ref=e250]:
+                - generic [ref=e253]: Bags
+              - button "Price, Not selected" [ref=e260]:
+                - generic [ref=e263]: Price
+              - button "Times, Not selected" [ref=e270]:
+                - generic [ref=e273]: Times
+              - button "Emissions, Not selected" [ref=e280]:
+                - generic [ref=e283]: Emissions
+              - button "Connecting airports, Not selected" [ref=e290]:
+                - generic [ref=e293]: Connecting airports
+              - button "Duration, Not selected" [ref=e300]:
+                - generic [ref=e303]: Duration
+      - main [ref=e353]:
+        - heading "Search results" [level=2] [ref=e308]
+        - generic [ref=e354]: 32 results returned.
+        - generic [ref=e356]:
+          - tablist [ref=e357]:
+            - tab [selected] [ref=e358] [cursor=pointer]:
+              - generic [ref=e359]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e365]
+            - tab "Cheapest from 201870 Pakistani rupees Learn more about ranking" [ref=e2203] [cursor=pointer]:
+              - generic [ref=e370]:
+                - text: Cheapest
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - text: from
+                    - generic [ref=e2204]: PKR 201,870
+                  - button "Learn more about ranking" [ref=e396]
+          - tabpanel "BestLearn more about ranking" [ref=e400]:
+            - generic [ref=e401]:
+              - heading "Top departing flights" [active] [level=3] [ref=e402]
+              - generic [ref=e403]:
+                - generic [ref=e404]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e408] [cursor=pointer]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e412]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e413] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e414]:
+                      - button "Passenger assistance" [ref=e415] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e420]:
+                  - generic [ref=e423]: Sorted by top flights
+              - list [ref=e426]:
+                - listitem [ref=e427]:
+                  - generic [ref=e428]:
+                    - link "From 202147 Pakistani rupees round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 7:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:15 AM on Monday, October 19. Total duration 7 hr. Select flight"
+                    - generic [ref=e430] [cursor=pointer]:
+                      - generic [ref=e432]:
+                        - generic [ref=e434]:
+                          - generic "Leaves Newark Liberty International Airport at 7:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:15 AM on Monday, October 19." [ref=e436]:
+                            - 'generic "Departure time: 7:15 PM." [ref=e2207]': 7:15 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:15 AM on Monday, October 19." [ref=e2210]':
+                              - 'generic "Arrival time: 7:15 AM on Monday, October 19." [ref=e2211]':
+                                - text: 7:15 AM
+                                - generic [ref=e2212]: "+1"
+                          - generic [ref=e445]:
+                            - text: United
+                            - generic [ref=e446]: ·
+                            - text: Lufthansa, Brussels Airlines
+                        - generic [ref=e447]:
+                          - generic "Total duration 7 hr." [ref=e448]: 7 hr
+                          - generic [aria-hidden] [ref=e449]:
+                            - generic [ref=e450]: EWR
+                            - text: –
+                            - generic [ref=e453]: LHR
+                        - generic "Nonstop flight." [ref=e458]: Nonstop
+                        - generic [ref=e460]:
+                          - generic [ref=e462]: 428 kg CO2e
+                          - generic [ref=e463]:
+                            - generic [aria-hidden] [ref=e464]: Avg emissions
+                            - 'button "Carbon emissions estimate: 428 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e465]'
+                        - generic [ref=e468]:
+                          - generic [ref=e469]: PKR 202,147
+                          - generic [ref=e471]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Newark Liberty International Airport at 7:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:15 AM on Monday, October 19." [ref=e474]
+                - listitem [ref=e479]:
+                  - generic [ref=e480]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with American. Leaves John F. Kennedy International Airport at 7:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:20 AM on Monday, October 19. Total duration 7 hr 5 min. Select flight"
+                    - generic [ref=e482] [cursor=pointer]:
+                      - generic [ref=e484]:
+                        - generic [ref=e486]:
+                          - generic "Leaves John F. Kennedy International Airport at 7:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:20 AM on Monday, October 19." [ref=e488]:
+                            - 'generic "Departure time: 7:15 PM." [ref=e2219]': 7:15 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:20 AM on Monday, October 19." [ref=e2222]':
+                              - 'generic "Arrival time: 7:20 AM on Monday, October 19." [ref=e2223]':
+                                - text: 7:20 AM
+                                - generic [ref=e2224]: "+1"
+                          - generic [ref=e497]:
+                            - text: American
+                            - generic [ref=e498]: ·
+                            - text: Finnair, British Airways, Iberia
+                        - generic [ref=e499]:
+                          - generic "Total duration 7 hr 5 min." [ref=e500]: 7 hr 5 min
+                          - generic [aria-hidden] [ref=e501]:
+                            - generic [ref=e502]: JFK
+                            - text: –
+                            - generic [ref=e505]: LHR
+                        - generic "Nonstop flight." [ref=e510]: Nonstop
+                        - generic [ref=e512]:
+                          - generic [ref=e514]: 312 kg CO2e
+                          - generic [ref=e515]:
+                            - generic [aria-hidden] [ref=e516]: "-26% emissions"
+                            - 'button "Carbon emissions estimate: 312 kilograms. -26% emissions. Learn more about this emissions estimate" [ref=e517]'
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: PKR 206,496
+                          - generic [ref=e523]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:20 AM on Monday, October 19." [ref=e526]
+                - listitem [ref=e531]:
+                  - generic [ref=e532]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 10:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:35 AM on Monday, October 19. Total duration 6 hr 55 min. Select flight"
+                    - generic [ref=e534] [cursor=pointer]:
+                      - generic [ref=e536]:
+                        - generic [ref=e538]:
+                          - generic "Leaves John F. Kennedy International Airport at 10:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:35 AM on Monday, October 19." [ref=e540]:
+                            - 'generic "Departure time: 10:40 PM." [ref=e2231]': 10:40 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:35 AM on Monday, October 19." [ref=e2234]':
+                              - 'generic "Arrival time: 10:35 AM on Monday, October 19." [ref=e2235]':
+                                - text: 10:35 AM
+                                - generic [ref=e2236]: "+1"
+                          - generic [ref=e549]:
+                            - text: British Airways
+                            - generic [ref=e550]: ·
+                            - text: American, Finnair, Iberia
+                        - generic [ref=e551]:
+                          - generic "Total duration 6 hr 55 min." [ref=e552]: 6 hr 55 min
+                          - generic [aria-hidden] [ref=e553]:
+                            - generic [ref=e554]: JFK
+                            - text: –
+                            - generic [ref=e557]: LHR
+                        - generic "Nonstop flight." [ref=e562]: Nonstop
+                        - generic [ref=e564]:
+                          - generic [ref=e566]: 304 kg CO2e
+                          - generic [ref=e567]:
+                            - generic [aria-hidden] [ref=e568]: "-28% emissions"
+                            - 'button "Carbon emissions estimate: 304 kilograms. -28% emissions. Learn more about this emissions estimate" [ref=e569]'
+                        - generic [ref=e572]:
+                          - generic [ref=e573]: PKR 206,496
+                          - generic [ref=e575]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 10:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:35 AM on Monday, October 19." [ref=e578]
+                - listitem [ref=e583]:
+                  - generic [ref=e584]:
+                    - link "From 233422 Pakistani rupees round trip total. Nonstop flight with JetBlue. Leaves John F. Kennedy International Airport at 9:03 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:30 AM on Monday, October 19. Total duration 7 hr 27 min. Select flight"
+                    - generic [ref=e586] [cursor=pointer]:
+                      - generic [ref=e588]:
+                        - generic [ref=e590]:
+                          - generic "Leaves John F. Kennedy International Airport at 9:03 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:30 AM on Monday, October 19." [ref=e592]:
+                            - 'generic "Departure time: 9:03 PM." [ref=e2243]': 9:03 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:30 AM on Monday, October 19." [ref=e2246]':
+                              - 'generic "Arrival time: 9:30 AM on Monday, October 19." [ref=e2247]':
+                                - text: 9:30 AM
+                                - generic [ref=e2248]: "+1"
+                          - generic [ref=e601]:
+                            - text: JetBlue
+                            - generic [ref=e602]: ·
+                            - text: Tap Air Portugal
+                        - generic [ref=e603]:
+                          - generic "Total duration 7 hr 27 min." [ref=e604]: 7 hr 27 min
+                          - generic [aria-hidden] [ref=e605]:
+                            - generic [ref=e606]: JFK
+                            - text: –
+                            - generic [ref=e609]: LHR
+                        - generic "Nonstop flight." [ref=e614]: Nonstop
+                        - generic [ref=e616]:
+                          - generic [ref=e618]: 590 kg CO2e
+                          - generic [ref=e619]:
+                            - generic [aria-hidden] [ref=e620]: +40% emissions
+                            - 'button "Carbon emissions estimate: 590 kilograms. +40% emissions. Learn more about this emissions estimate" [ref=e621]'
+                        - generic [ref=e624]:
+                          - generic [ref=e625]: PKR 233,422
+                          - generic [ref=e627]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 9:03 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:30 AM on Monday, October 19." [ref=e630]
+            - generic [ref=e639]:
+              - heading "Price insights" [level=3] [ref=e640]
+              - generic [ref=e641] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e646]
+                - generic [aria-hidden] [ref=e648]: View price history
+                - button "View price history" [ref=e650]
+            - region "Find the best price" [ref=e655]:
+              - generic [ref=e658]:
+                - heading "Track prices" [level=2] [ref=e661]
+                - button [ref=e665] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e666]
+                - generic [ref=e669]: Track prices from New York to London departing 2026-10-18 and returning 2026-10-25
+                - generic [ref=e670]:
+                  - generic [ref=e672] [cursor=pointer]: Oct 18 – 25
+                  - switch "Track prices from New York to London departing 2026-10-18 and returning 2026-10-25" [ref=e675] [cursor=pointer]
+                - generic [ref=e686]: Track prices from New York to London - Any dates
+                - generic [ref=e688]:
+                  - generic [aria-hidden] [ref=e689] [cursor=pointer]: Any dates
+                  - switch "Track prices from New York to London - Any dates" [ref=e692] [cursor=pointer]
+              - generic [ref=e705]:
+                - button "Date grid" [ref=e707]
+                - button "Price graph" [ref=e718]
+            - generic [ref=e731]:
+              - heading "Other departing flights" [level=3] [ref=e732]
+              - list [ref=e733]:
+                - listitem [ref=e734]:
+                  - generic [ref=e735]:
+                    - link "From 201870 Pakistani rupees round trip total. 1 stop flight with Iberia. Operated by Iberia Express. Leaves John F. Kennedy International Airport at 8:40 PM on Sunday, October 18 and arrives at London Gatwick Airport at 8:00 PM on Monday, October 19. Total duration 18 hr 20 min. Layover (1 of 1) is a 8 hr 25 min layover at Adolfo Suárez Madrid-Barajas Airport in Madrid. Select flight"
+                    - generic [ref=e737] [cursor=pointer]:
+                      - generic [ref=e739]:
+                        - generic [ref=e741]:
+                          - generic "Leaves John F. Kennedy International Airport at 8:40 PM on Sunday, October 18 and arrives at London Gatwick Airport at 8:00 PM on Monday, October 19." [ref=e743]:
+                            - 'generic "Departure time: 8:40 PM." [ref=e2255]': 8:40 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:00 PM on Monday, October 19." [ref=e2258]':
+                              - 'generic "Arrival time: 8:00 PM on Monday, October 19." [ref=e2259]':
+                                - text: 8:00 PM
+                                - generic [ref=e2260]: "+1"
+                          - generic [ref=e752]:
+                            - text: Iberia
+                            - generic [ref=e753]: ·
+                            - text: Operated by Iberia Express
+                        - generic [ref=e754]:
+                          - generic "Total duration 18 hr 20 min." [ref=e755]: 18 hr 20 min
+                          - generic [aria-hidden] [ref=e756]:
+                            - generic [ref=e757]: JFK
+                            - text: –
+                            - generic [ref=e760]: LGW
+                        - generic [ref=e763]:
+                          - generic "1 stop flight." [ref=e765]: 1 stop
+                          - generic "Layover (1 of 1) is a 8 hr 25 min layover at Adolfo Suárez Madrid-Barajas Airport in Madrid." [ref=e773]:
+                            - text: 8 hr 25 min
+                            - generic [ref=e2271]: MAD
+                        - generic [ref=e777]:
+                          - generic [ref=e779]: 488 kg CO2e
+                          - generic [ref=e780]:
+                            - generic [aria-hidden] [ref=e781]: +16% emissions
+                            - 'button "Carbon emissions estimate: 488 kilograms. +16% emissions. Learn more about this emissions estimate" [ref=e782]'
+                        - generic [ref=e785]:
+                          - generic [ref=e786]: PKR 201,870
+                          - generic [ref=e788]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:40 PM on Sunday, October 18 and arrives at London Gatwick Airport at 8:00 PM on Monday, October 19." [ref=e791]
+                - listitem [ref=e796]:
+                  - generic [ref=e797]:
+                    - link "From 202147 Pakistani rupees round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 8:20 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:40 PM on Sunday, October 18. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e799] [cursor=pointer]:
+                      - generic [ref=e801]:
+                        - generic [ref=e803]:
+                          - generic "Leaves Newark Liberty International Airport at 8:20 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:40 PM on Sunday, October 18." [ref=e805]:
+                            - 'generic "Departure time: 8:20 AM." [ref=e2275]': 8:20 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:40 PM." [ref=e2278]': 8:40 PM
+                          - generic [ref=e812]:
+                            - text: United
+                            - generic [ref=e813]: ·
+                            - text: Austrian, Lufthansa, Brussels Airlines
+                        - generic [ref=e814]:
+                          - generic "Total duration 7 hr 20 min." [ref=e815]: 7 hr 20 min
+                          - generic [aria-hidden] [ref=e816]:
+                            - generic [ref=e817]: EWR
+                            - text: –
+                            - generic [ref=e820]: LHR
+                        - generic "Nonstop flight." [ref=e825]: Nonstop
+                        - generic [ref=e827]:
+                          - generic [ref=e829]: 399 kg CO2e
+                          - generic [ref=e830]:
+                            - generic [aria-hidden] [ref=e831]: Avg emissions
+                            - 'button "Carbon emissions estimate: 399 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e832]'
+                        - generic [ref=e835]:
+                          - generic [ref=e836]: PKR 202,147
+                          - generic [ref=e838]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Newark Liberty International Airport at 8:20 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:40 PM on Sunday, October 18." [ref=e841]
+                - listitem [ref=e846]:
+                  - generic [ref=e847]:
+                    - link "From 202147 Pakistani rupees round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 9:30 AM on Sunday, October 18 and arrives at Heathrow Airport at 9:20 PM on Sunday, October 18. Total duration 6 hr 50 min. Select flight"
+                    - generic [ref=e849] [cursor=pointer]:
+                      - generic [ref=e851]:
+                        - generic [ref=e853]:
+                          - generic "Leaves Newark Liberty International Airport at 9:30 AM on Sunday, October 18 and arrives at Heathrow Airport at 9:20 PM on Sunday, October 18." [ref=e855]:
+                            - 'generic "Departure time: 9:30 AM." [ref=e2285]': 9:30 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:20 PM." [ref=e2288]': 9:20 PM
+                          - generic [ref=e862]:
+                            - text: United
+                            - generic [ref=e863]: ·
+                            - text: Austrian, Lufthansa, Brussels Airlines
+                        - generic [ref=e864]:
+                          - generic "Total duration 6 hr 50 min." [ref=e865]: 6 hr 50 min
+                          - generic [aria-hidden] [ref=e866]:
+                            - generic [ref=e867]: EWR
+                            - text: –
+                            - generic [ref=e870]: LHR
+                        - generic "Nonstop flight." [ref=e875]: Nonstop
+                        - generic [ref=e877]:
+                          - generic [ref=e879]: 313 kg CO2e
+                          - generic [ref=e880]:
+                            - generic [aria-hidden] [ref=e881]: "-26% emissions"
+                            - 'button "Carbon emissions estimate: 313 kilograms. -26% emissions. Learn more about this emissions estimate" [ref=e882]'
+                        - generic [ref=e885]:
+                          - generic [ref=e886]: PKR 202,147
+                          - generic [ref=e888]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Newark Liberty International Airport at 9:30 AM on Sunday, October 18 and arrives at Heathrow Airport at 9:20 PM on Sunday, October 18." [ref=e891]
+                - listitem [ref=e896]:
+                  - generic [ref=e897]:
+                    - link "From 202147 Pakistani rupees round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 5:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 5:55 AM on Monday, October 19. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e899] [cursor=pointer]:
+                      - generic [ref=e901]:
+                        - generic [ref=e903]:
+                          - generic "Leaves Newark Liberty International Airport at 5:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 5:55 AM on Monday, October 19." [ref=e905]:
+                            - 'generic "Departure time: 5:35 PM." [ref=e2295]': 5:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 5:55 AM on Monday, October 19." [ref=e2298]':
+                              - 'generic "Arrival time: 5:55 AM on Monday, October 19." [ref=e2299]':
+                                - text: 5:55 AM
+                                - generic [ref=e2300]: "+1"
+                          - generic [ref=e914]:
+                            - text: United
+                            - generic [ref=e915]: ·
+                            - text: Austrian, Lufthansa, Brussels Airlines
+                        - generic [ref=e916]:
+                          - generic "Total duration 7 hr 20 min." [ref=e917]: 7 hr 20 min
+                          - generic [aria-hidden] [ref=e918]:
+                            - generic [ref=e919]: EWR
+                            - text: –
+                            - generic [ref=e922]: LHR
+                        - generic "Nonstop flight." [ref=e927]: Nonstop
+                        - generic [ref=e929]:
+                          - generic [ref=e931]: 399 kg CO2e
+                          - generic [ref=e932]:
+                            - generic [aria-hidden] [ref=e933]: Avg emissions
+                            - 'button "Carbon emissions estimate: 399 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e934]'
+                        - generic [ref=e937]:
+                          - generic [ref=e938]: PKR 202,147
+                          - generic [ref=e940]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Newark Liberty International Airport at 5:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 5:55 AM on Monday, October 19." [ref=e943]
+                - listitem [ref=e948]:
+                  - generic [ref=e949]:
+                    - link "From 202147 Pakistani rupees round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 10:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:25 AM on Monday, October 19. Total duration 7 hr 25 min. Select flight"
+                    - generic [ref=e951] [cursor=pointer]:
+                      - generic [ref=e953]:
+                        - generic [ref=e955]:
+                          - generic "Leaves Newark Liberty International Airport at 10:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:25 AM on Monday, October 19." [ref=e957]:
+                            - 'generic "Departure time: 10:00 PM." [ref=e2307]': 10:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:25 AM on Monday, October 19." [ref=e2310]':
+                              - 'generic "Arrival time: 10:25 AM on Monday, October 19." [ref=e2311]':
+                                - text: 10:25 AM
+                                - generic [ref=e2312]: "+1"
+                          - generic [ref=e966]:
+                            - text: United
+                            - generic [ref=e967]: ·
+                            - text: Austrian, Lufthansa, Brussels Airlines
+                        - generic [ref=e968]:
+                          - generic "Total duration 7 hr 25 min." [ref=e969]: 7 hr 25 min
+                          - generic [aria-hidden] [ref=e970]:
+                            - generic [ref=e971]: EWR
+                            - text: –
+                            - generic [ref=e974]: LHR
+                        - generic "Nonstop flight." [ref=e979]: Nonstop
+                        - generic [ref=e981]:
+                          - generic [ref=e983]: 399 kg CO2e
+                          - generic [ref=e984]:
+                            - generic [aria-hidden] [ref=e985]: Avg emissions
+                            - 'button "Carbon emissions estimate: 399 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e986]'
+                        - generic [ref=e989]:
+                          - generic [ref=e990]: PKR 202,147
+                          - generic [ref=e992]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Newark Liberty International Airport at 10:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:25 AM on Monday, October 19." [ref=e995]
+                - listitem [ref=e1000]:
+                  - generic [ref=e1001]:
+                    - link "From 202507 Pakistani rupees round trip total. 1 stop flight with Air Canada. Leaves LaGuardia Airport at 5:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:00 AM on Monday, October 19. Total duration 11 hr 20 min. Layover (1 of 1) is a 2 hr 59 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. Select flight"
+                    - generic [ref=e1003] [cursor=pointer]:
+                      - generic [ref=e1005]:
+                        - generic [ref=e1007]:
+                          - generic "Leaves LaGuardia Airport at 5:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:00 AM on Monday, October 19." [ref=e1009]:
+                            - 'generic "Departure time: 5:40 PM." [ref=e2319]': 5:40 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:00 AM on Monday, October 19." [ref=e2322]':
+                              - 'generic "Arrival time: 10:00 AM on Monday, October 19." [ref=e2323]':
+                                - text: 10:00 AM
+                                - generic [ref=e2324]: "+1"
+                          - generic [ref=e1018]:
+                            - text: Air Canada
+                            - generic [ref=e1019]: ·
+                            - text: United, Lufthansa
+                        - generic [ref=e1020]:
+                          - generic "Total duration 11 hr 20 min." [ref=e1021]: 11 hr 20 min
+                          - generic [aria-hidden] [ref=e1022]:
+                            - generic [ref=e1023]: LGA
+                            - text: –
+                            - generic [ref=e1026]: LHR
+                        - generic [ref=e1029]:
+                          - generic "1 stop flight." [ref=e1031]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 59 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal." [ref=e1032]:
+                            - text: 2 hr 59 min
+                            - generic [ref=e2329]: YUL
+                        - generic [ref=e1036]:
+                          - generic [ref=e1038]: 387 kg CO2e
+                          - generic [ref=e1039]:
+                            - generic [aria-hidden] [ref=e1040]: "-8% emissions"
+                            - 'button "Carbon emissions estimate: 387 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e1041]'
+                        - generic [ref=e1044]:
+                          - generic [ref=e1045]: PKR 202,507
+                          - generic [ref=e1047]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves LaGuardia Airport at 5:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:00 AM on Monday, October 19." [ref=e1050]
+                - listitem [ref=e1055]:
+                  - generic [ref=e1056]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 7:50 AM on Sunday, October 18 and arrives at Heathrow Airport at 7:45 PM on Sunday, October 18. Total duration 6 hr 55 min. Select flight"
+                    - generic [ref=e1058] [cursor=pointer]:
+                      - generic [ref=e1060]:
+                        - generic [ref=e1062]:
+                          - generic "Leaves John F. Kennedy International Airport at 7:50 AM on Sunday, October 18 and arrives at Heathrow Airport at 7:45 PM on Sunday, October 18." [ref=e1064]:
+                            - 'generic "Departure time: 7:50 AM." [ref=e2333]': 7:50 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:45 PM." [ref=e2336]': 7:45 PM
+                          - generic [ref=e1071]:
+                            - text: British Airways
+                            - generic [ref=e1072]: ·
+                            - text: American, Finnair
+                        - generic [ref=e1073]:
+                          - generic "Total duration 6 hr 55 min." [ref=e1074]: 6 hr 55 min
+                          - generic [aria-hidden] [ref=e1075]:
+                            - generic [ref=e1076]: JFK
+                            - text: –
+                            - generic [ref=e1079]: LHR
+                        - generic "Nonstop flight." [ref=e1084]: Nonstop
+                        - generic [ref=e1086]:
+                          - generic [ref=e1088]: 433 kg CO2e
+                          - generic [ref=e1089]:
+                            - generic [aria-hidden] [ref=e1090]: Avg emissions
+                            - 'button "Carbon emissions estimate: 433 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1091]'
+                        - generic [ref=e1094]:
+                          - generic [ref=e1095]: PKR 206,496
+                          - generic [ref=e1097]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:50 AM on Sunday, October 18 and arrives at Heathrow Airport at 7:45 PM on Sunday, October 18." [ref=e1100]
+                - listitem [ref=e1105]:
+                  - generic [ref=e1106]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with American. Leaves John F. Kennedy International Airport at 9:35 AM on Sunday, October 18 and arrives at Heathrow Airport at 9:40 PM on Sunday, October 18. Total duration 7 hr 5 min. Select flight"
+                    - generic [ref=e1108] [cursor=pointer]:
+                      - generic [ref=e1110]:
+                        - generic [ref=e1112]:
+                          - generic "Leaves John F. Kennedy International Airport at 9:35 AM on Sunday, October 18 and arrives at Heathrow Airport at 9:40 PM on Sunday, October 18." [ref=e1114]:
+                            - 'generic "Departure time: 9:35 AM." [ref=e2343]': 9:35 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:40 PM." [ref=e2346]': 9:40 PM
+                          - generic [ref=e1121]:
+                            - text: American
+                            - generic [ref=e1122]: ·
+                            - text: Finnair, British Airways, Iberia
+                        - generic [ref=e1123]:
+                          - generic "Total duration 7 hr 5 min." [ref=e1124]: 7 hr 5 min
+                          - generic [aria-hidden] [ref=e1125]:
+                            - generic [ref=e1126]: JFK
+                            - text: –
+                            - generic [ref=e1129]: LHR
+                        - generic "Nonstop flight." [ref=e1134]: Nonstop
+                        - generic [ref=e1136]:
+                          - generic [ref=e1138]: 415 kg CO2e
+                          - generic [ref=e1139]:
+                            - generic [aria-hidden] [ref=e1140]: Avg emissions
+                            - 'button "Carbon emissions estimate: 415 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1141]'
+                        - generic [ref=e1144]:
+                          - generic [ref=e1145]: PKR 206,496
+                          - generic [ref=e1147]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 9:35 AM on Sunday, October 18 and arrives at Heathrow Airport at 9:40 PM on Sunday, October 18." [ref=e1150]
+                - listitem [ref=e1155]:
+                  - generic [ref=e1156]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with American. Leaves John F. Kennedy International Airport at 6:10 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:25 AM on Monday, October 19. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1158] [cursor=pointer]:
+                      - generic [ref=e1160]:
+                        - generic [ref=e1162]:
+                          - generic "Leaves John F. Kennedy International Airport at 6:10 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:25 AM on Monday, October 19." [ref=e1164]:
+                            - 'generic "Departure time: 6:10 PM." [ref=e2353]': 6:10 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:25 AM on Monday, October 19." [ref=e2356]':
+                              - 'generic "Arrival time: 6:25 AM on Monday, October 19." [ref=e2357]':
+                                - text: 6:25 AM
+                                - generic [ref=e2358]: "+1"
+                          - generic [ref=e1173]:
+                            - text: American
+                            - generic [ref=e1174]: ·
+                            - text: Finnair, British Airways, Iberia
+                        - generic [ref=e1175]:
+                          - generic "Total duration 7 hr 15 min." [ref=e1176]: 7 hr 15 min
+                          - generic [aria-hidden] [ref=e1177]:
+                            - generic [ref=e1178]: JFK
+                            - text: –
+                            - generic [ref=e1181]: LHR
+                        - generic "Nonstop flight." [ref=e1186]: Nonstop
+                        - generic [ref=e1188]:
+                          - generic [ref=e1190]: 312 kg CO2e
+                          - generic [ref=e1191]:
+                            - generic [aria-hidden] [ref=e1192]: "-26% emissions"
+                            - 'button "Carbon emissions estimate: 312 kilograms. -26% emissions. Learn more about this emissions estimate" [ref=e1193]'
+                        - generic [ref=e1196]:
+                          - generic [ref=e1197]: PKR 206,496
+                          - generic [ref=e1199]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:10 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:25 AM on Monday, October 19." [ref=e1202]
+                - listitem [ref=e1207]:
+                  - generic [ref=e1208]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:40 AM on Monday, October 19. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1210] [cursor=pointer]:
+                      - generic [ref=e1212]:
+                        - generic [ref=e1214]:
+                          - generic "Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:40 AM on Monday, October 19." [ref=e1216]:
+                            - 'generic "Departure time: 6:30 PM." [ref=e2365]': 6:30 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:40 AM on Monday, October 19." [ref=e2368]':
+                              - 'generic "Arrival time: 6:40 AM on Monday, October 19." [ref=e2369]':
+                                - text: 6:40 AM
+                                - generic [ref=e2370]: "+1"
+                          - generic [ref=e1225]:
+                            - text: British Airways
+                            - generic [ref=e1226]: ·
+                            - text: American, Finnair
+                        - generic [ref=e1227]:
+                          - generic "Total duration 7 hr 10 min." [ref=e1228]: 7 hr 10 min
+                          - generic [aria-hidden] [ref=e1229]:
+                            - generic [ref=e1230]: JFK
+                            - text: –
+                            - generic [ref=e1233]: LHR
+                        - generic "Nonstop flight." [ref=e1238]: Nonstop
+                        - generic [ref=e1240]:
+                          - generic [ref=e1242]: 394 kg CO2e
+                          - generic [ref=e1243]:
+                            - generic [aria-hidden] [ref=e1244]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 394 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e1245]'
+                        - generic [ref=e1248]:
+                          - generic [ref=e1249]: PKR 206,496
+                          - generic [ref=e1251]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:40 AM on Monday, October 19." [ref=e1254]
+                - listitem [ref=e1259]:
+                  - generic [ref=e1260]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 6:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:50 AM on Monday, October 19. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1262] [cursor=pointer]:
+                      - generic [ref=e1264]:
+                        - generic [ref=e1266]:
+                          - generic "Leaves John F. Kennedy International Airport at 6:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:50 AM on Monday, October 19." [ref=e1268]:
+                            - 'generic "Departure time: 6:40 PM." [ref=e2377]': 6:40 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:50 AM on Monday, October 19." [ref=e2380]':
+                              - 'generic "Arrival time: 6:50 AM on Monday, October 19." [ref=e2381]':
+                                - text: 6:50 AM
+                                - generic [ref=e2382]: "+1"
+                          - generic [ref=e1277]:
+                            - text: British Airways
+                            - generic [ref=e1278]: ·
+                            - text: American, Finnair
+                        - generic [ref=e1279]:
+                          - generic "Total duration 7 hr 10 min." [ref=e1280]: 7 hr 10 min
+                          - generic [aria-hidden] [ref=e1281]:
+                            - generic [ref=e1282]: JFK
+                            - text: –
+                            - generic [ref=e1285]: LHR
+                        - generic "Nonstop flight." [ref=e1290]: Nonstop
+                        - generic [ref=e1292]:
+                          - generic [ref=e1294]: 394 kg CO2e
+                          - generic [ref=e1295]:
+                            - generic [aria-hidden] [ref=e1296]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 394 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e1297]'
+                        - generic [ref=e1300]:
+                          - generic [ref=e1301]: PKR 206,496
+                          - generic [ref=e1303]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:50 AM on Monday, October 19." [ref=e1306]
+                - listitem [ref=e1311]:
+                  - generic [ref=e1312]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 7:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:45 AM on Monday, October 19. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1314] [cursor=pointer]:
+                      - generic [ref=e1316]:
+                        - generic [ref=e1318]:
+                          - generic "Leaves John F. Kennedy International Airport at 7:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:45 AM on Monday, October 19." [ref=e1320]:
+                            - 'generic "Departure time: 7:35 PM." [ref=e2389]': 7:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:45 AM on Monday, October 19." [ref=e2392]':
+                              - 'generic "Arrival time: 7:45 AM on Monday, October 19." [ref=e2393]':
+                                - text: 7:45 AM
+                                - generic [ref=e2394]: "+1"
+                          - generic [ref=e1329]:
+                            - text: British Airways
+                            - generic [ref=e1330]: ·
+                            - text: American, Finnair
+                        - generic [ref=e1331]:
+                          - generic "Total duration 7 hr 10 min." [ref=e1332]: 7 hr 10 min
+                          - generic [aria-hidden] [ref=e1333]:
+                            - generic [ref=e1334]: JFK
+                            - text: –
+                            - generic [ref=e1337]: LHR
+                        - generic "Nonstop flight." [ref=e1342]: Nonstop
+                        - generic [ref=e1344]:
+                          - generic [ref=e1346]: 433 kg CO2e
+                          - generic [ref=e1347]:
+                            - generic [aria-hidden] [ref=e1348]: Avg emissions
+                            - 'button "Carbon emissions estimate: 433 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1349]'
+                        - generic [ref=e1352]:
+                          - generic [ref=e1353]: PKR 206,496
+                          - generic [ref=e1355]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:45 AM on Monday, October 19." [ref=e1358]
+                - listitem [ref=e1363]:
+                  - generic [ref=e1364]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 8:20 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:30 AM on Monday, October 19. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1366] [cursor=pointer]:
+                      - generic [ref=e1368]:
+                        - generic [ref=e1370]:
+                          - generic "Leaves John F. Kennedy International Airport at 8:20 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:30 AM on Monday, October 19." [ref=e1372]:
+                            - 'generic "Departure time: 8:20 PM." [ref=e2401]': 8:20 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:30 AM on Monday, October 19." [ref=e2404]':
+                              - 'generic "Arrival time: 8:30 AM on Monday, October 19." [ref=e2405]':
+                                - text: 8:30 AM
+                                - generic [ref=e2406]: "+1"
+                          - generic [ref=e1381]:
+                            - text: British Airways
+                            - generic [ref=e1382]: ·
+                            - text: American, Finnair
+                        - generic [ref=e1383]:
+                          - generic "Total duration 7 hr 10 min." [ref=e1384]: 7 hr 10 min
+                          - generic [aria-hidden] [ref=e1385]:
+                            - generic [ref=e1386]: JFK
+                            - text: –
+                            - generic [ref=e1389]: LHR
+                        - generic "Nonstop flight." [ref=e1394]: Nonstop
+                        - generic [ref=e1396]:
+                          - generic [ref=e1398]: 394 kg CO2e
+                          - generic [ref=e1399]:
+                            - generic [aria-hidden] [ref=e1400]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 394 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e1401]'
+                        - generic [ref=e1404]:
+                          - generic [ref=e1405]: PKR 206,496
+                          - generic [ref=e1407]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:20 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:30 AM on Monday, October 19." [ref=e1410]
+                - listitem [ref=e1415]:
+                  - generic [ref=e1416]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 8:55 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:10 AM on Monday, October 19. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1418] [cursor=pointer]:
+                      - generic [ref=e1420]:
+                        - generic [ref=e1422]:
+                          - generic "Leaves John F. Kennedy International Airport at 8:55 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:10 AM on Monday, October 19." [ref=e1424]:
+                            - 'generic "Departure time: 8:55 PM." [ref=e2413]': 8:55 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:10 AM on Monday, October 19." [ref=e2416]':
+                              - 'generic "Arrival time: 9:10 AM on Monday, October 19." [ref=e2417]':
+                                - text: 9:10 AM
+                                - generic [ref=e2418]: "+1"
+                          - generic [ref=e1433]:
+                            - text: British Airways
+                            - generic [ref=e1434]: ·
+                            - text: American, Finnair
+                        - generic [ref=e1435]:
+                          - generic "Total duration 7 hr 15 min." [ref=e1436]: 7 hr 15 min
+                          - generic [aria-hidden] [ref=e1437]:
+                            - generic [ref=e1438]: JFK
+                            - text: –
+                            - generic [ref=e1441]: LHR
+                        - generic "Nonstop flight." [ref=e1446]: Nonstop
+                        - generic [ref=e1448]:
+                          - generic [ref=e1450]: 433 kg CO2e
+                          - generic [ref=e1451]:
+                            - generic [aria-hidden] [ref=e1452]: Avg emissions
+                            - 'button "Carbon emissions estimate: 433 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1453]'
+                        - generic [ref=e1456]:
+                          - generic [ref=e1457]: PKR 206,496
+                          - generic [ref=e1459]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:55 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:10 AM on Monday, October 19." [ref=e1462]
+                - listitem [ref=e1467]:
+                  - generic [ref=e1468]:
+                    - link "From 206496 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 9:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:50 AM on Monday, October 19. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1470] [cursor=pointer]:
+                      - generic [ref=e1472]:
+                        - generic [ref=e1474]:
+                          - generic "Leaves John F. Kennedy International Airport at 9:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:50 AM on Monday, October 19." [ref=e1476]:
+                            - 'generic "Departure time: 9:40 PM." [ref=e2425]': 9:40 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:50 AM on Monday, October 19." [ref=e2428]':
+                              - 'generic "Arrival time: 9:50 AM on Monday, October 19." [ref=e2429]':
+                                - text: 9:50 AM
+                                - generic [ref=e2430]: "+1"
+                          - generic [ref=e1485]:
+                            - text: British Airways
+                            - generic [ref=e1486]: ·
+                            - text: American, Finnair
+                        - generic [ref=e1487]:
+                          - generic "Total duration 7 hr 10 min." [ref=e1488]: 7 hr 10 min
+                          - generic [aria-hidden] [ref=e1489]:
+                            - generic [ref=e1490]: JFK
+                            - text: –
+                            - generic [ref=e1493]: LHR
+                        - generic "Nonstop flight." [ref=e1498]: Nonstop
+                        - generic [ref=e1500]:
+                          - generic [ref=e1502]: 394 kg CO2e
+                          - generic [ref=e1503]:
+                            - generic [aria-hidden] [ref=e1504]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 394 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e1505]'
+                        - generic [ref=e1508]:
+                          - generic [ref=e1509]: PKR 206,496
+                          - generic [ref=e1511]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 9:40 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:50 AM on Monday, October 19." [ref=e1514]
+                - listitem [ref=e1519]:
+                  - generic [ref=e1520]:
+                    - link "From 219045 Pakistani rupees round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 9:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:20 AM on Monday, October 19. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e1522] [cursor=pointer]:
+                      - generic [ref=e1524]:
+                        - generic [ref=e1526]:
+                          - generic "Leaves Newark Liberty International Airport at 9:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:20 AM on Monday, October 19." [ref=e1528]:
+                            - 'generic "Departure time: 9:00 PM." [ref=e2437]': 9:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:20 AM on Monday, October 19." [ref=e2440]':
+                              - 'generic "Arrival time: 9:20 AM on Monday, October 19." [ref=e2441]':
+                                - text: 9:20 AM
+                                - generic [ref=e2442]: "+1"
+                          - generic [ref=e1537]:
+                            - text: United
+                            - generic [ref=e1538]: ·
+                            - text: Lufthansa, Austrian, Brussels Airlines
+                        - generic [ref=e1539]:
+                          - generic "Total duration 7 hr 20 min." [ref=e1540]: 7 hr 20 min
+                          - generic [aria-hidden] [ref=e1541]:
+                            - generic [ref=e1542]: EWR
+                            - text: –
+                            - generic [ref=e1545]: LHR
+                        - generic "Nonstop flight." [ref=e1550]: Nonstop
+                        - generic [ref=e1552]:
+                          - generic [ref=e1554]: 399 kg CO2e
+                          - generic [ref=e1555]:
+                            - generic [aria-hidden] [ref=e1556]: Avg emissions
+                            - 'button "Carbon emissions estimate: 399 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1557]'
+                        - generic [ref=e1560]:
+                          - generic [ref=e1561]: PKR 219,045
+                          - generic [ref=e1563]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Newark Liberty International Airport at 9:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:20 AM on Monday, October 19." [ref=e1566]
+                - listitem [ref=e1571]:
+                  - generic [ref=e1572]:
+                    - link "From 233422 Pakistani rupees round trip total. Nonstop flight with JetBlue. Leaves John F. Kennedy International Airport at 8:45 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:45 PM on Sunday, October 18. Total duration 7 hr. Select flight"
+                    - generic [ref=e1574] [cursor=pointer]:
+                      - generic [ref=e1576]:
+                        - generic [ref=e1578]:
+                          - generic "Leaves John F. Kennedy International Airport at 8:45 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:45 PM on Sunday, October 18." [ref=e1580]:
+                            - 'generic "Departure time: 8:45 AM." [ref=e2449]': 8:45 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:45 PM." [ref=e2452]': 8:45 PM
+                          - generic [ref=e1587]: JetBlue
+                        - generic [ref=e1588]:
+                          - generic "Total duration 7 hr." [ref=e1589]: 7 hr
+                          - generic [aria-hidden] [ref=e1590]:
+                            - generic [ref=e1591]: JFK
+                            - text: –
+                            - generic [ref=e1594]: LHR
+                        - generic "Nonstop flight." [ref=e1599]: Nonstop
+                        - generic [ref=e1601]:
+                          - generic [ref=e1603]: 590 kg CO2e
+                          - generic [ref=e1604]:
+                            - generic [aria-hidden] [ref=e1605]: +40% emissions
+                            - 'button "Carbon emissions estimate: 590 kilograms. +40% emissions. Learn more about this emissions estimate" [ref=e1606]'
+                        - generic [ref=e1609]:
+                          - generic [ref=e1610]: PKR 233,422
+                          - generic [ref=e1612]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:45 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:45 PM on Sunday, October 18." [ref=e1615]
+                - listitem [ref=e1620]:
+                  - generic [ref=e1621]:
+                    - link "From 257162 Pakistani rupees round trip total. 2 stops flight with Delta and KLM. Operated by Republic Airways-DL Connection-DL Shuttle, KLM Cityhopper. Leaves LaGuardia Airport at 10:59 AM on Sunday, October 18 and arrives at London City Airport at 7:55 AM on Monday, October 19. Total duration 15 hr 56 min. Layover (1 of 2) is a 4 hr 24 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 2 hr 10 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e1623] [cursor=pointer]:
+                      - generic [ref=e1625]:
+                        - generic [ref=e1627]:
+                          - generic "Leaves LaGuardia Airport at 10:59 AM on Sunday, October 18 and arrives at London City Airport at 7:55 AM on Monday, October 19." [ref=e1629]:
+                            - 'generic "Departure time: 10:59 AM." [ref=e2459]': 10:59 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:55 AM on Monday, October 19." [ref=e2462]':
+                              - 'generic "Arrival time: 7:55 AM on Monday, October 19." [ref=e2463]':
+                                - text: 7:55 AM
+                                - generic [ref=e2464]: "+1"
+                          - generic [ref=e1638]:
+                            - text: Delta, KLM
+                            - generic [ref=e1639]: ·
+                            - text: Operated by Republic Airways-DL Connection-DL Shuttle, KLM Cityhopper
+                        - generic [ref=e1640]:
+                          - generic "Total duration 15 hr 56 min." [ref=e1641]: 15 hr 56 min
+                          - generic [aria-hidden] [ref=e1642]:
+                            - generic [ref=e1643]: LGA
+                            - text: –
+                            - generic [ref=e1646]: LCY
+                        - generic [ref=e1649]:
+                          - generic "2 stops flight." [ref=e1651]: 2 stops
+                          - generic "Layover (1 of 2) is a 4 hr 24 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 2 hr 10 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e1652]:
+                            - generic [ref=e2469]: BOS
+                            - text: ","
+                            - generic [ref=e2471]: AMS
+                        - generic [ref=e1658]:
+                          - generic [ref=e1660]: 518 kg CO2e
+                          - generic [ref=e1661]:
+                            - generic [aria-hidden] [ref=e1662]: +23% emissions
+                            - 'button "Carbon emissions estimate: 518 kilograms. +23% emissions. Learn more about this emissions estimate" [ref=e1663]'
+                        - generic [ref=e1666]:
+                          - generic [ref=e1667]: PKR 257,162
+                          - generic [ref=e1669]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves LaGuardia Airport at 10:59 AM on Sunday, October 18 and arrives at London City Airport at 7:55 AM on Monday, October 19." [ref=e1672]
+                - listitem [ref=e1677]:
+                  - generic [ref=e1678]:
+                    - link "From 257522 Pakistani rupees round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 8:15 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:10 PM on Sunday, October 18. Total duration 6 hr 55 min. Select flight"
+                    - generic [ref=e1680] [cursor=pointer]:
+                      - generic [ref=e1682]:
+                        - generic [ref=e1684]:
+                          - generic "Leaves John F. Kennedy International Airport at 8:15 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:10 PM on Sunday, October 18." [ref=e1686]:
+                            - 'generic "Departure time: 8:15 AM." [ref=e2475]': 8:15 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:10 PM." [ref=e2478]': 8:10 PM
+                          - generic [ref=e1693]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1694]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1695]:
+                          - generic "Total duration 6 hr 55 min." [ref=e1696]: 6 hr 55 min
+                          - generic [aria-hidden] [ref=e1697]:
+                            - generic [ref=e1698]: JFK
+                            - text: –
+                            - generic [ref=e1701]: LHR
+                        - generic "Nonstop flight." [ref=e1706]: Nonstop
+                        - generic [ref=e1708]:
+                          - generic [ref=e1710]: 372 kg CO2e
+                          - generic [ref=e1711]:
+                            - generic [aria-hidden] [ref=e1712]: "-12% emissions"
+                            - 'button "Carbon emissions estimate: 372 kilograms. -12% emissions. Learn more about this emissions estimate" [ref=e1713]'
+                        - generic [ref=e1716]:
+                          - generic [ref=e1717]: PKR 257,522
+                          - generic [ref=e1719]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:15 AM on Sunday, October 18 and arrives at Heathrow Airport at 8:10 PM on Sunday, October 18." [ref=e1722]
+                - listitem [ref=e1727]:
+                  - generic [ref=e1728]:
+                    - link "From 257522 Pakistani rupees round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 6:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:20 AM on Monday, October 19. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e1730] [cursor=pointer]:
+                      - generic [ref=e1732]:
+                        - generic [ref=e1734]:
+                          - generic "Leaves John F. Kennedy International Airport at 6:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:20 AM on Monday, October 19." [ref=e1736]:
+                            - 'generic "Departure time: 6:00 PM." [ref=e2485]': 6:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:20 AM on Monday, October 19." [ref=e2488]':
+                              - 'generic "Arrival time: 6:20 AM on Monday, October 19." [ref=e2489]':
+                                - text: 6:20 AM
+                                - generic [ref=e2490]: "+1"
+                          - generic [ref=e1745]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1746]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1747]:
+                          - generic "Total duration 7 hr 20 min." [ref=e1748]: 7 hr 20 min
+                          - generic [aria-hidden] [ref=e1749]:
+                            - generic [ref=e1750]: JFK
+                            - text: –
+                            - generic [ref=e1753]: LHR
+                        - generic "Nonstop flight." [ref=e1758]: Nonstop
+                        - generic [ref=e1760]:
+                          - generic [ref=e1762]: 385 kg CO2e
+                          - generic [ref=e1763]:
+                            - generic [aria-hidden] [ref=e1764]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 385 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e1765]'
+                        - generic [ref=e1768]:
+                          - generic [ref=e1769]: PKR 257,522
+                          - generic [ref=e1771]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:20 AM on Monday, October 19." [ref=e1774]
+                - listitem [ref=e1779]:
+                  - generic [ref=e1780]:
+                    - link "From 257522 Pakistani rupees round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:45 AM on Monday, October 19. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1782] [cursor=pointer]:
+                      - generic [ref=e1784]:
+                        - generic [ref=e1786]:
+                          - generic "Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:45 AM on Monday, October 19." [ref=e1788]:
+                            - 'generic "Departure time: 6:30 PM." [ref=e2497]': 6:30 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:45 AM on Monday, October 19." [ref=e2500]':
+                              - 'generic "Arrival time: 6:45 AM on Monday, October 19." [ref=e2501]':
+                                - text: 6:45 AM
+                                - generic [ref=e2502]: "+1"
+                          - generic [ref=e1797]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1798]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1799]:
+                          - generic "Total duration 7 hr 15 min." [ref=e1800]: 7 hr 15 min
+                          - generic [aria-hidden] [ref=e1801]:
+                            - generic [ref=e1802]: JFK
+                            - text: –
+                            - generic [ref=e1805]: LHR
+                        - generic "Nonstop flight." [ref=e1810]: Nonstop
+                        - generic [ref=e1812]:
+                          - generic [ref=e1814]: 367 kg CO2e
+                          - generic [ref=e1815]:
+                            - generic [aria-hidden] [ref=e1816]: "-13% emissions"
+                            - 'button "Carbon emissions estimate: 367 kilograms. -13% emissions. Learn more about this emissions estimate" [ref=e1817]'
+                        - generic [ref=e1820]:
+                          - generic [ref=e1821]: PKR 257,522
+                          - generic [ref=e1823]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 18 and arrives at Heathrow Airport at 6:45 AM on Monday, October 19." [ref=e1826]
+                - listitem [ref=e1831]:
+                  - generic [ref=e1832]:
+                    - link "From 257522 Pakistani rupees round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 7:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:15 AM on Monday, October 19. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1834] [cursor=pointer]:
+                      - generic [ref=e1836]:
+                        - generic [ref=e1838]:
+                          - generic "Leaves John F. Kennedy International Airport at 7:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:15 AM on Monday, October 19." [ref=e1840]:
+                            - 'generic "Departure time: 7:00 PM." [ref=e2509]': 7:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:15 AM on Monday, October 19." [ref=e2512]':
+                              - 'generic "Arrival time: 7:15 AM on Monday, October 19." [ref=e2513]':
+                                - text: 7:15 AM
+                                - generic [ref=e2514]: "+1"
+                          - generic [ref=e1849]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1850]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1851]:
+                          - generic "Total duration 7 hr 15 min." [ref=e1852]: 7 hr 15 min
+                          - generic [aria-hidden] [ref=e1853]:
+                            - generic [ref=e1854]: JFK
+                            - text: –
+                            - generic [ref=e1857]: LHR
+                        - generic "Nonstop flight." [ref=e1862]: Nonstop
+                        - generic [ref=e1864]:
+                          - generic [ref=e1866]: 385 kg CO2e
+                          - generic [ref=e1867]:
+                            - generic [aria-hidden] [ref=e1868]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 385 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e1869]'
+                        - generic [ref=e1872]:
+                          - generic [ref=e1873]: PKR 257,522
+                          - generic [ref=e1875]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 7:15 AM on Monday, October 19." [ref=e1878]
+                - listitem [ref=e1883]:
+                  - generic [ref=e1884]:
+                    - link "From 257522 Pakistani rupees round trip total. Nonstop flight with Delta. Leaves John F. Kennedy International Airport at 8:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:50 AM on Monday, October 19. Total duration 7 hr 35 min. Select flight"
+                    - generic [ref=e1886] [cursor=pointer]:
+                      - generic [ref=e1888]:
+                        - generic [ref=e1890]:
+                          - generic "Leaves John F. Kennedy International Airport at 8:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:50 AM on Monday, October 19." [ref=e1892]:
+                            - 'generic "Departure time: 8:15 PM." [ref=e2521]': 8:15 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:50 AM on Monday, October 19." [ref=e2524]':
+                              - 'generic "Arrival time: 8:50 AM on Monday, October 19." [ref=e2525]':
+                                - text: 8:50 AM
+                                - generic [ref=e2526]: "+1"
+                          - generic [ref=e1901]:
+                            - text: Delta
+                            - generic [ref=e1902]: ·
+                            - text: KLM, Virgin Atlantic
+                        - generic [ref=e1903]:
+                          - generic "Total duration 7 hr 35 min." [ref=e1904]: 7 hr 35 min
+                          - generic [aria-hidden] [ref=e1905]:
+                            - generic [ref=e1906]: JFK
+                            - text: –
+                            - generic [ref=e1909]: LHR
+                        - generic "Nonstop flight." [ref=e1914]: Nonstop
+                        - generic [ref=e1916]:
+                          - generic [ref=e1918]: 445 kg CO2e
+                          - generic [ref=e1919]:
+                            - generic [aria-hidden] [ref=e1920]: Avg emissions
+                            - 'button "Carbon emissions estimate: 445 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1921]'
+                        - generic [ref=e1924]:
+                          - generic [ref=e1925]: PKR 257,522
+                          - generic [ref=e1927]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:15 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:50 AM on Monday, October 19." [ref=e1930]
+                - listitem [ref=e1935]:
+                  - generic [ref=e1936]:
+                    - link "From 257522 Pakistani rupees round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 8:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:50 AM on Monday, October 19. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1938] [cursor=pointer]:
+                      - generic [ref=e1940]:
+                        - generic [ref=e1942]:
+                          - generic "Leaves John F. Kennedy International Airport at 8:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:50 AM on Monday, October 19." [ref=e1944]:
+                            - 'generic "Departure time: 8:35 PM." [ref=e2533]': 8:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:50 AM on Monday, October 19." [ref=e2536]':
+                              - 'generic "Arrival time: 8:50 AM on Monday, October 19." [ref=e2537]':
+                                - text: 8:50 AM
+                                - generic [ref=e2538]: "+1"
+                          - generic [ref=e1953]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1954]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1955]:
+                          - generic "Total duration 7 hr 15 min." [ref=e1956]: 7 hr 15 min
+                          - generic [aria-hidden] [ref=e1957]:
+                            - generic [ref=e1958]: JFK
+                            - text: –
+                            - generic [ref=e1961]: LHR
+                        - generic "Nonstop flight." [ref=e1966]: Nonstop
+                        - generic [ref=e1968]:
+                          - generic [ref=e1970]: 385 kg CO2e
+                          - generic [ref=e1971]:
+                            - generic [aria-hidden] [ref=e1972]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 385 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e1973]'
+                        - generic [ref=e1976]:
+                          - generic [ref=e1977]: PKR 257,522
+                          - generic [ref=e1979]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:35 PM on Sunday, October 18 and arrives at Heathrow Airport at 8:50 AM on Monday, October 19." [ref=e1982]
+                - listitem [ref=e1987]:
+                  - generic [ref=e1988]:
+                    - link "From 257522 Pakistani rupees round trip total. Nonstop flight with Delta. Leaves John F. Kennedy International Airport at 10:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:20 AM on Monday, October 19. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e1990] [cursor=pointer]:
+                      - generic [ref=e1992]:
+                        - generic [ref=e1994]:
+                          - generic "Leaves John F. Kennedy International Airport at 10:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:20 AM on Monday, October 19." [ref=e1996]:
+                            - 'generic "Departure time: 10:00 PM." [ref=e2545]': 10:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:20 AM on Monday, October 19." [ref=e2548]':
+                              - 'generic "Arrival time: 10:20 AM on Monday, October 19." [ref=e2549]':
+                                - text: 10:20 AM
+                                - generic [ref=e2550]: "+1"
+                          - generic [ref=e2005]:
+                            - text: Delta
+                            - generic [ref=e2006]: ·
+                            - text: KLM, Virgin Atlantic
+                        - generic [ref=e2007]:
+                          - generic "Total duration 7 hr 20 min." [ref=e2008]: 7 hr 20 min
+                          - generic [aria-hidden] [ref=e2009]:
+                            - generic [ref=e2010]: JFK
+                            - text: –
+                            - generic [ref=e2013]: LHR
+                        - generic "Nonstop flight." [ref=e2018]: Nonstop
+                        - generic [ref=e2020]:
+                          - generic [ref=e2022]: 356 kg CO2e
+                          - generic [ref=e2023]:
+                            - generic [aria-hidden] [ref=e2024]: "-16% emissions"
+                            - 'button "Carbon emissions estimate: 356 kilograms. -16% emissions. Learn more about this emissions estimate" [ref=e2025]'
+                        - generic [ref=e2028]:
+                          - generic [ref=e2029]: PKR 257,522
+                          - generic [ref=e2031]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 10:00 PM on Sunday, October 18 and arrives at Heathrow Airport at 10:20 AM on Monday, October 19." [ref=e2034]
+                - listitem [ref=e2039]:
+                  - generic [ref=e2040]:
+                    - link "From 257522 Pakistani rupees round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 11:55 PM on Sunday, October 18 and arrives at Heathrow Airport at 12:05 PM on Monday, October 19. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e2042] [cursor=pointer]:
+                      - generic [ref=e2044]:
+                        - generic [ref=e2046]:
+                          - generic "Leaves John F. Kennedy International Airport at 11:55 PM on Sunday, October 18 and arrives at Heathrow Airport at 12:05 PM on Monday, October 19." [ref=e2048]:
+                            - 'generic "Departure time: 11:55 PM." [ref=e2557]': 11:55 PM
+                            - text: –
+                            - 'generic "Arrival time: 12:05 PM on Monday, October 19." [ref=e2560]':
+                              - 'generic "Arrival time: 12:05 PM on Monday, October 19." [ref=e2561]':
+                                - text: 12:05 PM
+                                - generic [ref=e2562]: "+1"
+                          - generic [ref=e2057]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e2058]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e2059]:
+                          - generic "Total duration 7 hr 10 min." [ref=e2060]: 7 hr 10 min
+                          - generic [aria-hidden] [ref=e2061]:
+                            - generic [ref=e2062]: JFK
+                            - text: –
+                            - generic [ref=e2065]: LHR
+                        - generic "Nonstop flight." [ref=e2070]: Nonstop
+                        - generic [ref=e2072]:
+                          - generic [ref=e2074]: 385 kg CO2e
+                          - generic [ref=e2075]:
+                            - generic [aria-hidden] [ref=e2076]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 385 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e2077]'
+                        - generic [ref=e2080]:
+                          - generic [ref=e2081]: PKR 257,522
+                          - generic [ref=e2083]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 11:55 PM on Sunday, October 18 and arrives at Heathrow Airport at 12:05 PM on Monday, October 19." [ref=e2086]
+                - listitem [ref=e2091]:
+                  - generic [ref=e2092]:
+                    - link "From 312122 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves Newark Liberty International Airport at 5:50 PM on Sunday, October 18 and arrives at Heathrow Airport at 5:50 AM on Monday, October 19. Total duration 7 hr. Select flight"
+                    - generic [ref=e2094] [cursor=pointer]:
+                      - generic [ref=e2096]:
+                        - generic [ref=e2098]:
+                          - generic "Leaves Newark Liberty International Airport at 5:50 PM on Sunday, October 18 and arrives at Heathrow Airport at 5:50 AM on Monday, October 19." [ref=e2100]:
+                            - 'generic "Departure time: 5:50 PM." [ref=e2569]': 5:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 5:50 AM on Monday, October 19." [ref=e2572]':
+                              - 'generic "Arrival time: 5:50 AM on Monday, October 19." [ref=e2573]':
+                                - text: 5:50 AM
+                                - generic [ref=e2574]: "+1"
+                          - generic [ref=e2109]:
+                            - text: British Airways
+                            - generic [ref=e2110]: ·
+                            - text: American
+                        - generic [ref=e2111]:
+                          - generic "Total duration 7 hr." [ref=e2112]: 7 hr
+                          - generic [aria-hidden] [ref=e2113]:
+                            - generic [ref=e2114]: EWR
+                            - text: –
+                            - generic [ref=e2117]: LHR
+                        - generic "Nonstop flight." [ref=e2122]: Nonstop
+                        - generic [ref=e2124]:
+                          - generic [ref=e2126]: 447 kg CO2e
+                          - generic [ref=e2127]:
+                            - generic [aria-hidden] [ref=e2128]: +6% emissions
+                            - 'button "Carbon emissions estimate: 447 kilograms. +6% emissions. Learn more about this emissions estimate" [ref=e2129]'
+                        - generic [ref=e2132]:
+                          - generic [ref=e2133]: PKR 312,122
+                          - generic [ref=e2135]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Newark Liberty International Airport at 5:50 PM on Sunday, October 18 and arrives at Heathrow Airport at 5:50 AM on Monday, October 19." [ref=e2138]
+                - listitem [ref=e2143]:
+                  - generic [ref=e2144]:
+                    - link "From 312122 Pakistani rupees round trip total. Nonstop flight with British Airways. Leaves Newark Liberty International Airport at 9:25 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:30 AM on Monday, October 19. Total duration 7 hr 5 min. Select flight"
+                    - generic [ref=e2146] [cursor=pointer]:
+                      - generic [ref=e2148]:
+                        - generic [ref=e2150]:
+                          - generic "Leaves Newark Liberty International Airport at 9:25 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:30 AM on Monday, October 19." [ref=e2152]:
+                            - 'generic "Departure time: 9:25 PM." [ref=e2581]': 9:25 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:30 AM on Monday, October 19." [ref=e2584]':
+                              - 'generic "Arrival time: 9:30 AM on Monday, October 19." [ref=e2585]':
+                                - text: 9:30 AM
+                                - generic [ref=e2586]: "+1"
+                          - generic [ref=e2161]:
+                            - text: British Airways
+                            - generic [ref=e2162]: ·
+                            - text: American
+                        - generic [ref=e2163]:
+                          - generic "Total duration 7 hr 5 min." [ref=e2164]: 7 hr 5 min
+                          - generic [aria-hidden] [ref=e2165]:
+                            - generic [ref=e2166]: EWR
+                            - text: –
+                            - generic [ref=e2169]: LHR
+                        - generic "Nonstop flight." [ref=e2174]: Nonstop
+                        - generic [ref=e2176]:
+                          - generic [ref=e2178]: 314 kg CO2e
+                          - generic [ref=e2179]:
+                            - generic [aria-hidden] [ref=e2180]: "-26% emissions"
+                            - 'button "Carbon emissions estimate: 314 kilograms. -26% emissions. Learn more about this emissions estimate" [ref=e2181]'
+                        - generic [ref=e2184]:
+                          - generic [ref=e2185]: PKR 312,122
+                          - generic [ref=e2187]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Newark Liberty International Airport at 9:25 PM on Sunday, October 18 and arrives at Heathrow Airport at 9:30 AM on Monday, October 19." [ref=e2190]
+                - listitem [ref=e2195]:
+                  - generic [ref=e2196] [cursor=pointer]:
+                    - button "View more flights" [ref=e2199]
+                    - generic [aria-hidden] [ref=e2202]: View more flights
+          - text: · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · ·· · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· ·
+      - contentinfo [ref=e312]:
+        - generic [ref=e314]:
+          - button "Language·English (United States)" [ref=e315]
+          - button "Location·Pakistan" [ref=e321]
+          - button "Currency PKR" [ref=e328]:
+            - generic [aria-hidden] [ref=e341]: Currency·PKR
+        - generic [ref=e342]:
+          - link "About Google Travel" [ref=e343] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e344] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e345] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e346] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e347] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e348] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - generic [ref=e349]:
+          - paragraph [ref=e350]:
+            - text: Displayed currencies may differ from the currencies used to purchase flights.
+            - link "Learn more about currencies" [ref=e351] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PK
+              - text: Learn more
+          - paragraph [ref=e352]: Prices are final prices and include all taxes and fees, including payment fees for the cheapest common payment method (which may differ depending on the provider). Additional charges may apply for other types of payment, luggage, meals, WLAN or other additional services. Prices, availability and travel details are provided based on the latest information received from our partners. This information is reflected in the results within a period of less than 24 hours. Additional conditions may also be applied by our partners. You should then check prices and conditions with the services providers before booking.
